@@ -101,6 +101,6 @@ form.addEventListener("submit", (event) => {
   ) {
     inputUser.value = "";
     inputEmail.value = "";
-    location.href = "../entertainment.html";
+    location.href = "../index.html";
   }
 });
