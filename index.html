@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="form-section">
+      <div class="header-div">
+        <a href="entertainment.html">
+          <i class="fa-solid fa-clapperboard"></i>
+        </a>
+      </div>
+
+      <form action="">
+        <h1>Login</h1>
+        <div class="userName-div">
+          <div class="userName-text">
+            <input
+              name="userName"
+              type="text"
+              class="userName-input"
+              title="userName"
+            />
+            <span></span>
+          </div>
+          <p>User Name</p>
+        </div>
+
+        <div class="email-div">
+          <div class="email-text">
+            <input name="email" type="text" class="email-input" title="email" />
+            <span></span>
+          </div>
+          <p>Email Address</p>
+        </div>
+
+        <div class="password-div">
+          <div class="password-text">
+            <input
+              name="password"
+              type="password"
+              class="password-input"
+              title="password"
+              maxlength="15"
+            />
+            <span></span>
+          </div>
+          <p>Password</p>
+        </div>
+
+        <input
+          type="submit"
+          value="Login to your account"
+          class="submit-button"
+        />
+      </form>
+    </section>
+
+    <script type="module" src="./validations/form-validation.js"></script>
+    <script src="./font/js/all.min.js"></script>
+  </body>
+</html>

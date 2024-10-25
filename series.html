@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="stylesheet" href="./css/entertainment.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="section">
+      <header>
+        <div class="product-header">
+          <div class="header-div">
+            <a title="App" href="./entertainment.html">
+              <i class="fa-solid fa-clapperboard"></i>
+            </a>
+          </div>
+
+          <nav>
+            <ul class="navbar-list">
+              <li data-id="all">
+                <a title="Trending" href="./entertainment.html">
+                  <ion-icon name="apps-outline"></ion-icon>
+                </a>
+              </li>
+              <li data-id="Movie" class="movie">
+                <a title="Movie" href="./movies.html">
+                  <ion-icon name="film-outline"></ion-icon>
+                </a>
+              </li>
+              <li data-id="TV Series">
+                <a title="TV Series" href="./series.html" class="ac">
+                  <ion-icon name="desktop-outline" class="active"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a title="Bookmark" href="./wishList.html">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </a>
+              </li>
+              <li class="log-out">
+                <a href="#" title="log out">
+                  <ion-icon name="log-out-outline"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="login">
+            <img src="images/user.png" alt="" />
+            <p></p>
+          </div>
+        </div>
+      </header>
+
+      <section id="search-product">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="input-div">
+          <input type="text" placeholder="Search for movies or TV series" />
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+      </section>
+
+      <section id="wishList-product">
+        <div class="product-series">
+          <h3>TV Series</h3>
+          <h5></h5>
+          <ul class="products-series-list"></ul>
+        </div>
+      </section>
+    </section>
+
+    <script type="module" src="./project/series.js"></script>
+    <script src="./font/js/all.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
